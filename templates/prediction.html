@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% block title %}Stock Returns Prediction{% endblock %}
+{% block content %}
+
+    <div class="custom-shape-divider-bottom-1640928969">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+<h1 class = 'big-title'>Stock Returns Prediction</h1>
+<h2>Will the ticker have a <strong>positive</strong> return in three month? </h2>
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+    {% for categories, msg in messages %}
+        <p class = '{{categories}}'>{{msg}}</p>
+    {% endfor %}
+{% endif %}
+{% endwith %}
+<form  action = '#' method = 'post'>
+    <p><input  class = 'input-ticker' type = 'text' name = 'tkr' placeholder = 'Enter a ticker here'/></p>
+    <p><input class = 'submit' type = 'submit' value = 'submit'/></p>
+</form>
+{% endblock %}

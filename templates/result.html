@@ -1,0 +1,39 @@
+{% extends "index.html" %}
+
+{% block title %}Result{% endblock %}
+
+{% block content %}
+    
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for msg in messages %}
+                <p>{{msg}}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    <h1>{{ticker}}: {{info_lst[0]}} <span style = 'font-size:50%'> {{info_lst[1]}}</span></h1>
+    <h3> will have a <span style = 'font-weight:bold;font-size :120%'>{{final_result}}</span> return after three months with the possibility of {{acc}}%.</h3>
+    <form action = '#' method = 'post'>
+        <p><input class = 'submit' type = 'submit' name = 'submit_button' value = 'Predict Another'/></p>
+    </form>
+    <h2> </h2>
+    <div class = 'stock-info'>
+    <div class = 'stock-info-block-1'>
+    <p>Open: {{info_lst[7]}}</p>
+    <p>High: {{info_lst[8]}}</p>
+    <p>Low: {{info_lst[9]}}</p></div>
+    <div cass = 'stock-info-block-2'>
+    <p>Market Cap: {{info_lst[6]}}</p>
+    <p>P/E Ratio: {{info_lst[4]}}</p>
+    <p>Dividend Yield: {{info_lst[5]}}</p></div>
+    <div class = 'stock-info-block-3'>
+    <p>52 Week High: {{info_lst[2]}}</p>
+    <p>52 Week Low: {{info_lst[3]}}</p></div></div>
+
+    <image src="{{url_for('static',filename= 'price1d.png')}}"></image>
+    <h2> </h2>
+    <image src="{{url_for('static',filename= 'price1y.png')}}"></image>
+    <h2> </h2>
+    
+{% endblock %}
+
