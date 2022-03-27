@@ -1,9 +1,10 @@
-# Stock Returns Prediction
-A website that predicts whether a ticker will have positive returns in three months using machine learning, with additional stock information and price change plots presented. 
+# Stock Prophet
+> A Machine Learning Algorithm that predicts the return of a stock
 
-# Demo
-Try it here.
-screen shots
+![Stock Prophet Logo]()
+
+
+
 
 # Algorithm
 
