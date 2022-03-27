@@ -5,7 +5,6 @@
 
 ## What is Stock Prophet?
 Stock Prophet is a machine learning algorithm that predicts a relative level of condience for any given stock to complement investment decisions for the clients.
-The web-ased interface can be accessed [here](https://stock-prophett.herokuapp.com).
 
 ### Vision (objective)
 The objective of Stock Prophet is to provide an opportunity for investors to experience the potential of emerging technology such as machine learning in stock market through predicting whether a stock return will be positive in the future. 
