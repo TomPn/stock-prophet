@@ -1,7 +1,7 @@
 # Stock Prophet
 > A Machine Learning Algorithm that predicts the return of a stock
 
-![Stock Prophet Logo]()
+![Stock Prophet Logo](IMG_1047.jpg)
 
 
 
