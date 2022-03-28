@@ -1,7 +1,7 @@
 # Stock Prophet
 > A Machine Learning Algorithm that predicts the return of a stock
 
-![Stock Prophet Logo](IMG_1047.jpg)
+![Stock Prophet Logo](https://github.com/TomPn/stock-prophet/blob/main/908CCF0C-63F5-43AF-90BF-D9427EE31495.JPEG)
 
 ## What is Stock Prophet?
 Stock Prophet is a machine learning algorithm that predicts a relative level of condience for any given stock to complement investment decisions for the clients.
