@@ -12,7 +12,7 @@ The objective of Stock Prophet is to provide an opportunity for investors to exp
 ### Key Features
 The core funtionality of Stock Prophet helps the users gain practical experience with machine learning algorithm in an engaging way. The algorithm incorporates the support vector machine and statistical analysis of the financial data when determining features and target. 
 
-A web-based interface is developed to supply the users with fundamental information such as Market Cap, P/E ratio. and price tracing graphs.
+A web-based interface is developed to supply the users with fundamental information such as Market Cap, P/E ratio and price tracing graphs.
 
 The algorithm has shown success in real world, achieving the accuracy of approximately 95% in a testing run. 
 
